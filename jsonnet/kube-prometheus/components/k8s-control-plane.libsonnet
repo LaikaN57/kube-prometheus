@@ -24,6 +24,7 @@ local defaults = {
       runbookURLPattern: 'https://runbooks.prometheus-operator.dev/runbooks/kubernetes/%s',
       diskDeviceSelector: 'device=~"(/dev/)?(mmcblk.p.+|nvme.+|rbd.+|sd.+|vd.+|xvd.+|dm-.+|md.+|dasd.+)"',
       hostNetworkInterfaceSelector: 'device!~"veth.+"',
+      usePascalCaseForWorkloadTypeLabelValues: true
     },
   },
   kubeProxy:: false,
